@@ -1,0 +1,29 @@
+{
+    "name": "lunantu/rajaongkir-bagisto",
+    "type": "library",
+    "description": "This extension used for calculating shipping rate with RajaOngkir services.",
+    "keywords": ["rajaongkir", "rajaongkir-extension", "rajaongkir-bagisto"],
+    "homepage": "https://github.com/inubayuaji/rajaongkir-bagisto",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inu Bayu Aji",
+            "email": "inu.develop@gmail.com",
+            "homepage": "https://github.com/inubayuaji",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Lunantu\\RajaOngkir\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Lunantu\\RajaOngkir\\Providers\\RajaOngkirServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev"
+}
